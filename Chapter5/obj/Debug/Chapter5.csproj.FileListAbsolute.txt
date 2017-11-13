@@ -1,0 +1,9 @@
+C:\Users\steve\Desktop\Chapter5\Chapter5\bin\Chapter5.dll.config
+C:\Users\steve\Desktop\Chapter5\Chapter5\bin\Chapter5.dll
+C:\Users\steve\Desktop\Chapter5\Chapter5\bin\Chapter5.pdb
+C:\Users\steve\Desktop\Chapter5\Chapter5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\steve\Desktop\Chapter5\Chapter5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\steve\Desktop\Chapter5\Chapter5\obj\Debug\Chapter5.csprojResolveAssemblyReference.cache
+C:\Users\steve\Desktop\Chapter5\Chapter5\obj\Debug\Chapter5.csproj.CoreCompileInputs.cache
+C:\Users\steve\Desktop\Chapter5\Chapter5\obj\Debug\Chapter5.dll
+C:\Users\steve\Desktop\Chapter5\Chapter5\obj\Debug\Chapter5.pdb

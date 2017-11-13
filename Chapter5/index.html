@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chapter 5</title>
+    <style>
+        body {
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+
+         function currency_exchange() {
+
+             var eur = 0.857248;
+             var yen = 113.542903;
+             var fra = 0.995752;
+             var rup = 65.172357;
+             var cad = 1.267494;
+
+             var us_currency = prompt("Amount of US dollars to convert");
+
+             document.write("$" + us_currency + " U.S. Currency is approximately equivalent to:<br />")
+
+             var eur_cur = calc_exchange(eur, us_currency);
+             var yen_cur = calc_exchange(yen, us_currency);
+             var fra_cur = calc_exchange(fra, us_currency);
+             var rup_cur = calc_exchange(rup, us_currency);
+             var cad_cur = calc_exchange(cad, us_currency);
+
+             document.write(eur_cur.toFixed(2) + " EUR (Euros) <br />");
+             document.write(yen_cur.toFixed(2) + " YEN (Euros) <br />");
+             document.write(fra.toFixed(2) + " FRA (Euros) <br />");
+             document.write(rup_cur.toFixed(2) + " RUP (Euros)<br />");
+             document.write(cad_cur.toFixed(2) + " CAD (Euros)<br />");
+
+         }
+
+         function calc_exchange(x, y) {
+
+             return x * y
+         }
+
+         setTimeout(currency_exchange(), 3000);
+    </script>
+</body>
+</html>
